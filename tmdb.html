@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="./tmdb.js"></script>
+        <link rel="stylesheet" href="./styles.css">
+    <title>Movie DB</title>
+    
+    <style>
+        .main {
+            width: 300;
+            height: 200px;
+            background-color: lightgray;
+            background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+            background-position-y: -230px;
+            background-size: cover;
+        }
+
+        .search {
+            height: 70px;
+            background-color: lightyellow;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contents {
+            width: 1000px;
+            margin: 20px auto 20px auto;
+        }
+        
+        .movie-text {
+            word-spacing: 1 px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+    </div>
+
+    <div class="search">
+        <h3>영화 검색:</h3>
+        <input type="text" placeholder="영화 제목을 입력해 주세요">
+        <button>검색</button>
+    </div>
+    <div class="contents">
+    </div>
+</body>
+
+</html>

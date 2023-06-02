@@ -1,0 +1,15 @@
+.contents {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    width: 100vw;
+    /* css vw | vh 찾아보기 */
+}
+
+.movie-overview {
+    width:300px;
+}
+
+.title {
+    width: 300px;
+}
